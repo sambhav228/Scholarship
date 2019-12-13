@@ -1,0 +1,79 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+.bgimage{
+	background-image: url(sch.1.png);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100vh;
+
+}
+.menu{
+	width: 1550px;
+	height: 100px;
+	background-color: rgba(0,0,0,0.4);
+
+}
+.leftmenu{
+	width: 25%;
+	line-height:100px;
+	float: left; 
+}
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: black;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+.rightmenu{
+	width:75%;
+	height: 100px;
+	float: right;
+}
+.rightmenu ul li {
+	font-family: 'Montserrat',sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 20px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+margin-left: 40px;
+text-transform: uppercase;
+}
+#firstlist{
+	color: orange;
+
+}
+
+.rightmenu ul li a text:hover{
+	color: orange;
+}
+
+
+/* visited link */
+.rightmenu ul li a:visited {
+    color: orange;
+}
+
+.text{
+	width: 100%;
+	margin-top: 210px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white;
+}
+.text h4{
+	font-size: 14px;
+	font-family: 'Open Sans',sans-serif;
+
+}
+.text h1{
+	font-size: 60px;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: 700px; 
+}
+
